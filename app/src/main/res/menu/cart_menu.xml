@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/continueShoppingItem"
+          android:title="Sowda dowam et"
+          app:showAsAction="never"
+    ></item>
+
+    <item android:id="@+id/verifyOrderItem"
+          android:title="Sowdamy Tamamla"
+          app:showAsAction="never"/>
+    <item android:id="@+id/declineOrderItem"
+          android:title="Sepetimi arassala"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/verifyOrderIcon"
+          android:title="Sowdany Tamamla"
+          android:icon="@drawable/verify_icon"
+          app:showAsAction="always"/>
+    <item android:id="@+id/continueShoppingIcon"
+          android:title="sowda dowam et"
+          android:icon="@drawable/add_cart_icon"
+          app:showAsAction="always"/>
+    <item android:id="@+id/declineOrderIcon"
+          android:title="Sepetimi arassala"
+          android:icon="@drawable/decline_order"
+          app:showAsAction="always"/>
+
+
+
+
+</menu>

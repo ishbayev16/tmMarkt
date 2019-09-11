@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onlayn Söwda merkezine                 Hoş Geldiniz "
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            android:textSize="30sp" android:gravity="center" android:id="@+id/textView4"/>
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp" app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView3" android:layout_marginTop="24dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+    <Button
+            android:text="ulgama girmek"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMainActivityLogin"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintTop_toBottomOf="@+id/Hasabym" android:layout_marginTop="8dp"
+            android:background="@drawable/button_shape"/>
+"/>
+    <Button
+            android:text="Registratsiya"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnMainActivitySignUp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.498" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" android:background="@drawable/button_shape"/>
+    <TextView
+            android:text="Hasabym Bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Hasabym"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="24dp" android:textSize="20sp"/>
+" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:textSize="20sp"/>
+    <TextView
+            android:text="Hasabym Yok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" android:layout_marginTop="44dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnMainActivityLogin"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:textSize="20sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
